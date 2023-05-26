@@ -2,7 +2,7 @@
 
 Go bindings for Kong's Admin API
 
-[![GoDoc](https://godoc.org/github.com/kong/go-kong?status.svg)](https://godoc.org/github.com/kong/go-kong/kong)
+[![GoDoc](https://godoc.org/github.com/kong/go-kong?status.svg)](https://godoc.org/github.com/lcsn/go-kong/kong)
 [![Build Status](https://github.com/kong/go-kong/workflows/CI%20Test/badge.svg)](https://github.com/kong/go-kong/actions?query=branch%3Amain+event%3Apush)
 [![codecov](https://codecov.io/gh/Kong/go-kong/branch/main/graph/badge.svg?token=OLN3HEOIVP)](https://codecov.io/gh/Kong/go-kong)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kong/go-kong)](https://goreportcard.com/report/github.com/kong/go-kong)
@@ -10,7 +10,7 @@ Go bindings for Kong's Admin API
 ## Importing
 
 ```shell
-go get github.com/kong/go-kong/kong
+go get github.com/lcsn/go-kong/kong
 ```
 
 ## Compatibility

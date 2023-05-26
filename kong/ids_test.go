@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/kong/go-kong/kong"
+	"github.com/lcsn/go-kong/kong"
 )
 
 type fillEntityIDTestCase struct {

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/kong/go-kong/kong/custom"
+	"github.com/lcsn/go-kong/kong/custom"
 )
 
 func TestCustomEntityService(T *testing.T) {
