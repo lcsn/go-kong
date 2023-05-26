@@ -109,7 +109,7 @@ func (s *RouteService) Update(ctx context.Context,
 	}
 
 	endpoint := fmt.Sprintf("/routes/%v", *route.ID)
-	req, err := s.client.NewRequest("PUT", endpoint, nil, route)
+	req, err := s.client.NewRequest("PATCH", endpoint, nil, route)
 	if err != nil {
 		return nil, err
 	}
